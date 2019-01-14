@@ -67,18 +67,15 @@ function gifQuery() {
       p.textContent = rating;
       var personImage = document.createElement("img");
       personImage.addEventListener("click", pauseGif);
-      personImage.setAttribute(
-        "src",
-        results[i].images.fixed_height_small_still.url
-      );
+      personImage.setAttribute("src", results[i].images.fixed_height_still.url);
       personImage.setAttribute(
         "data-still",
-        results[i].images.fixed_height_small_still.url
+        results[i].images.fixed_height_still.url
       );
       personImage.setAttribute("data-state", "still");
       personImage.setAttribute(
         "data-animate",
-        results[i].images.fixed_height_small.url
+        results[i].images.fixed_height.url
       );
       gifDiv.appendChild(personImage);
       gifDiv.appendChild(p);

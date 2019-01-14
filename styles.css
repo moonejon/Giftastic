@@ -38,7 +38,8 @@ header {
   color: white;
   text-transform: uppercase;
   font-weight: bold;
-  margin-bottom: 10px;
+  font-size: 24pt;
+  margin-bottom: 15px;
 }
 
 input {
@@ -50,14 +51,16 @@ input {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 16pt;
 }
 
 button {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  font-size: 16pt;
 }
 
 #gifs-go-here {
@@ -72,7 +75,7 @@ img {
 }
 
 p {
-  font-size: 6pt;
+  font-size: 12pt;
   text-transform: uppercase;
   font-family: "Oxygen", sans-serif;
   font-weight: bold;
